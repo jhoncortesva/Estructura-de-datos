@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Ejemplos</title>
 </head>
+
 <body>
     <header>
         <h1>JavaScript y sus estructura de datos</h1>
@@ -20,13 +22,41 @@
     </div>
     <div class="enteros">
         <p class="int">Enteros</p>
-        
+        <p>Los enteros son considerados precisos hasta los 15 dígitos</p>
+        <button onclick="funcionInt()">Demuestralo</button>
+        <p id="demostracionINT"></p>
+    </div>
+    <div class="flotantes">
+        <p class="float">Flotantes</p>
+        <p>La aritmética de los flotantes no es del 100% acertada</p>
+        <button onclick="funcionFloat()">Enseñamelo</button>
+        <p id="demostracionFloat"></p>
+    </div>
+    <div class="cadenas-texto">
+        <p class="string">Cadenas de texto</p>
+        <p>Si juntamos un entero con una cadena de texto, el entero se vuelve una cadena de texto. Esto depende de la
+            forma en como se escriba.</p>
+        <button onclick="funcionString()">Compruebalo</button>
+        <p id="demostracionString"></p>
     </div>
     <script>
         function funcionB() {
-            document.getElementById("demonstracion").innerHTML = Boolean(10>9);
+            document.getElementById("demonstracion").innerHTML = Boolean(10 > 9);
         }
-
+        function funcionInt() {
+            var x = 999999999999999;
+            var y = 9999999999999999;
+            document.getElementById("demostracionINT").innerHTML = x + "<br>" + y;
+        }
+        function funcionFloat() {
+            var x = 0.2 + 0.1;
+            document.getElementById("demostracionFloat").innerHTML = "0.2 + 0.1 = " + x;
+        }
+        function funcionString() {
+            var x = "Volvo" + 16 + 4;
+            document.getElementById("demostracionString").innerHTML = x;
+        }
     </script>
 </body>
+
 </html>
