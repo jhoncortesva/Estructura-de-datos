@@ -12,7 +12,7 @@
     <header>
         
         <div class="Javascript">
-            <h2 class="java">Javascript</h1>
+            <h2 class="java"><a href="index.html">Javascript</a></h1>
                 <p>JavaScript es un robusto lenguaje de programación que se puede aplicar a un documento HTML y usarse para
                     crear interactividad dinámica en los sitios web. Fue inventado por Brendan Eich, cofundador del proyecto
                     Mozilla, Mozilla Foundation y la Corporación Mozilla. Puedes hacer casi cualquier cosa con JavaScript.</p>
@@ -48,6 +48,17 @@
         <button onclick="funcionString()">Compruebalo</button>
         <p id="demostracionString"></p>
     </div>
+
+    <div class="arrays">
+        <h1>arrrays en js</h1>
+        <p>let frutas = ["Manzana", "Banana"]</p>
+        <p>si introducimos dos datos dentro de nuestro array y usamos en comando length
+        </p>
+        <p>asi mostrmos nuestro arrary: console.log(frutas.length)</p>
+        <button onclick="funcionA()">Enseñamelo</button>
+        <p id="demostracionA"></p>
+    </div>
+
     <script>
         function funcionB() {
             document.getElementById("demonstracion").innerHTML = Boolean(10 > 9);
@@ -64,6 +75,12 @@
         function funcionString() {
             var x = "Volvo" + 16 + 4;
             document.getElementById("demostracionString").innerHTML = x;
+        }
+
+        function funcionA() {
+            let frutas = ["Manzana", "Banana"]
+            
+            document.getElementById("demostracionA").innerHTML = frutas.length;
         }
     </script>
 </body>
