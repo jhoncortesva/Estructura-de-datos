@@ -1,36 +1,94 @@
-.menu{
-    margin: auto;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    height: 80px;
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    
 }
 
 h1{
-    font-size: 50px;
+    font: bold 14 px verdana, geneva, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px white;
+}
+
+h2{
+    font: bold 14 px verdana, geneva, sans-serif;
+    text-align: left;
+}
+
+#contenedor{
+    width: 1350px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+header{
+    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+    border: 2px solid green;
+    padding: 20px;
+    border-radius: 20px;
     
 }
 
 section{
+    text-align: justify ;
+    width: 1350px;
+    height: 2700px;
+    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+
+.ali{
+    text-align: justify;
+    text-indent: 2%;
+}
+
+.al{
+    text-indent: 5%;
     text-align: justify;
 }
 
+.all{
+    text-indent: 2%;
+}
+
+.tex{
+    text-indent: 5%;
+}
+
+.x{
+    text-indent: 1%;
+}
+
 img{
-    
     border: 5px dotted green;
     text-align: center;
     margin: auto;
-    
-}
-
-.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
 }
 
-footer{
-    margin: auto;
-    background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
-    border-radius: 10px;
-    height: 110px;
-}
+aside{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    float: right;
+    width: 120px;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+}   
+
+
+
+
+
