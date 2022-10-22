@@ -51,12 +51,41 @@
 
     <div class="arrays">
         <h1>arrrays en js</h1>
+        <h2> crear un array</h2>
         <p>let frutas = ["Manzana", "Banana"]</p>
-        <p>si introducimos dos datos dentro de nuestro array y usamos en comando length
+        <p>si introducimos dos datos dentro de nuestro array y usamos el comando length
         </p>
         <p>asi mostrmos nuestro arrary: console.log(frutas.length)</p>
-        <button onclick="funcionA()">Enseñamelo</button>
+        <button onclick="funcionA()"> Mostrar</button>
         <p id="demostracionA"></p>
+    </div>
+
+    <div class="ar">
+        <h2>Acceder a un elemento de Array mediante su índice</h2>
+        <p>para ello usaremos las siguientes instrucciones: </p>
+        <p>let primero = frutas[0] </p>
+        <button onclick="funcionAr()"> Mostrar </button>
+        <p id="demostracionAr"></p>
+    </div>
+
+    <div class="arr">
+        <p>let ultimo = frutas[frutas.length - 1]</p>
+        <button onclick="funcionArr()"> Mostrar </button>
+        <p id="demostracionArr"></p>
+    </div>
+
+    <div class="añ">
+        <h2>Añadir un elemento al final de un Array</h2>
+        <p>let nuevaLongitud = frutas.push('Naranja')</p>
+        <button onclick="funcionAñ()"> Mostrar </button>
+        <p id="demostracionAñ"></p>
+    </div>
+
+    <div class="eli">
+        <h2>Eliminar el último elemento de un Array</h2>
+        <p>let ultimo = frutas.pop()</p>
+        <button onclick="funcionEl()"> Mostrar </button>
+        <p id="demostracionEl"> </p>
     </div>
 
     <script>
@@ -78,10 +107,31 @@
         }
 
         function funcionA() {
-            let frutas = ["Manzana", "Banana"]
-            
+            let frutas = ["Manzana", "Banana"];
             document.getElementById("demostracionA").innerHTML = frutas.length;
         }
+
+        function funcionAr() {
+            let frutas = ["Manzana", "Banana"];
+            document.getElementById("demostracionAr").innerHTML = frutas[0];
+        }
+
+        function funcionArr() {
+            let frutas = ["Manzana", "Banana"];
+            document.getElementById("demostracionArr").innerHTML = frutas[frutas.length - 1];
+        }
+
+        function funcionAñ() {
+            let frutas = ["Manzana", "Banana"];
+            let nuevaLongitud = frutas.push('Naranja');
+            document.getElementById("demostracionAñ").innerHTML = frutas;
+        }
+
+        function funcionEl() {
+            let ultimo = frutas.pop();
+            document.getElementById("demostracionEl").innerHTML = frutas;
+        }
+
     </script>
 </body>
 

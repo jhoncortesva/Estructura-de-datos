@@ -1,7 +1,10 @@
 // arrays
 
-let frutas = ["Manzana", "Banana"]
-console.log(frutas.length)
+var frutas = ["Manzana", "Banana"];
+let nuevaLongitud = frutas.push("Naranja");
+console.log(frutas)
 
 // pilas
+
+
 
