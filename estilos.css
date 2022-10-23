@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(202, 185, 240, 0.5) 0%, rgba(247, 211, 236, 0.5) 
+    100%), url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.Javascript{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 300%;
+}
+
+.Booleanos{
+    text-indent: 3%;
+}
+
+.simples{
+    text-indent: 2%;
+}
+
+.bo{
+    text-indent: 4%;
+    font-size: 25px;
+}
+.Boo{
+    text-indent: 4%;
+}
+
+button{
+    border-radius: 5px;
+    /*font-weight: bold; */
+    background-color:  cadetblue;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    color: black;
+}

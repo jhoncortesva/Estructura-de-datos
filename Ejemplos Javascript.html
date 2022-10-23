@@ -5,189 +5,192 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>JS Ejemplos</title>
 </head>
 
 <body>
     <header>
-        
         <div class="Javascript">
-            <h2 class="java"><a href="index.html">Javascript</a></h1>
-                <p>JavaScript es un robusto lenguaje de programación que se puede aplicar a un documento HTML y usarse para
-                    crear interactividad dinámica en los sitios web. Fue inventado por Brendan Eich, cofundador del proyecto
-                    Mozilla, Mozilla Foundation y la Corporación Mozilla. Puedes hacer casi cualquier cosa con JavaScript.</p>
-                <script src="javascrikt.js"></script>
+            <h2><a href="index.html">JavaScript y su Estructura de Datos</a> </h1>
         </div>
-        
-        <h1>JavaScript y sus estructura de datos</h1>
     </header>
-    <div class="titulo-simples">
-        <p class="Estáticos">Estáticos</p>
-        <p class="simples">Simples</p>
-        <p class="Booleanos">Booleanos</p>
-        <p>¿Es 10>9 verdadero?</p>
-        <button onclick="funcionB()">Averiguar</button>
-        <p id="demonstracion"></p>
-    </div>
-    <div class="enteros">
-        <p class="int">Enteros</p>
-        <p>Los enteros son considerados precisos hasta los 15 dígitos</p>
-        <button onclick="funcionInt()">Demuestralo</button>
-        <p id="demostracionINT"></p>
-    </div>
-    <div class="flotantes">
-        <p class="float">Flotantes</p>
-        <p>La aritmética de los flotantes no es del 100% acertada</p>
-        <button onclick="funcionFloat()">Enseñamelo</button>
-        <p id="demostracionFloat"></p>
-    </div>
-    <div class="cadenas-texto">
-        <p class="string">Cadenas de texto</p>
-        <p>Si juntamos un entero con una cadena de texto, el entero se vuelve una cadena de texto. Esto depende de la
-            forma en como se escriba.</p>
-        <button onclick="funcionString()">Compruebalo</button>
-        <p id="demostracionString"></p>
-    </div>
+</br>
+    <section>
+        <div class="titulo-simples">
+            <h1 class="Estaticos">Estáticos</h1>
+        </br>
+            <h2 class="simples"> Dentro de tipos de datos estaticos estan los simples el cual se divide en:</h2>
+            <h2 class="Booleanos"> * Booleanos</h2>
+            <h3 class="Boo"> Ejemplo: </h3>
+    </br>
+            <p class="bo">¿Es 10>9 verdadero?</p>
+        </br>
+            <button class="b"   onclick="funcionB()">Averiguar</button>
+            <p id="demonstracion"></p>
+        </div>
+        <div class="enteros">
+            <h2 class="Booleanos"> * Enteros</h2>
+            <p class="Boo">Los enteros son considerados precisos hasta los 15 dígitos</p>
+            <button onclick="funcionInt()">Demuestralo</button>
+            <p id="demostracionINT"></p>
+        </div>
+        <div class="flotantes">
+            <h2 class="Booleanos"> * Flotantes</h2>
+            <p class="Boo">La aritmética de los flotantes no es del 100% acertada</p>
+            <button onclick="funcionFloat()">Enseñamelo</button>
+            <p id="demostracionFloat"></p>
+        </div>
+        <div class="cadenas-texto">
+            <h2 class="Booleanos"> * Cadenas de texto</h2>
+            <p class="Boo">Si juntamos un entero con una cadena de texto, el entero se vuelve una cadena de texto. Esto depende de
+                la forma en como se escriba.</p>
+            <button onclick="funcionString()">Compruebalo</button>
+            <p id="demostracionString"></p>
+        </div>
 
-    <div class="arrays">
-        <h1>arrrays en js</h1>
-        <h2> crear un array</h2>
-        <p>let frutas = ["Manzana", "Banana"]</p>
-        <p>si introducimos dos datos dentro de nuestro array y usamos el comando length
-        </p>
-        <p>asi mostrmos nuestro arrary: console.log(frutas.length)</p>
-        <button onclick="funcionA()"> Mostrar</button>
-        <p id="demostracionA"></p>
-    </div>
+        <div class="arrays">
+            <h2 class="Booleanos"> * Arrrays en js</h2>
+            <h2 class="Boo"> crear un array</h2>
+            <p class="Boo">let frutas = ["Manzana", "Banana"]</p>
+            <p class="Boo">si introducimos dos datos dentro de nuestro array y usamos el comando length
+            </p>
+            <p class="Boo">asi mostramos nuestro arrary: console.log(frutas.length)</p>
+            <button onclick="funcionA()"> Mostrar</button>
+            <p id="demostracionA"></p>
+        </div>
 
-    <div class="ar">
-        <h2>Acceder a un elemento de Array mediante su índice</h2>
-        <p>para ello usaremos las siguientes instrucciones: </p>
-        <p>let primero = frutas[0] </p>
-        <button onclick="funcionAr()"> Mostrar </button>
-        <p id="demostracionAr"></p>
-    </div>
+        <div class="ar">
+            <h2 class="Boo">Acceder a un elemento de Array mediante su índice</h2>
+            <p class="Boo">para ello usaremos las siguientes instrucciones: </p>
+            <p class="Boo">let primero = frutas[0] </p>
+            <button onclick="funcionAr()"> Mostrar </button>
+            <p id="demostracionAr"></p>
+        </div>
 
-    <div class="arr">
-        <p>let ultimo = frutas[frutas.length - 1]</p>
-        <button onclick="funcionArr()"> Mostrar </button>
-        <p id="demostracionArr"></p>
-    </div>
+        <div class="arr">
+            <p class="Boo">let ultimo = frutas[frutas.length - 1]</p>
+            <button onclick="funcionArr()"> Mostrar </button>
+            <p id="demostracionArr"></p>
+        </div>
 
-    <div class="añ">
-        <h2>Añadir un elemento al final de un Array</h2>
-        <p>let nuevaLongitud = frutas.push('Naranja')</p>
-        <button onclick="funcionAñ()"> Mostrar </button>
-        <p id="demostracionAñ"></p>
-    </div>
+        <div class="añ">
+            <h2 class="Boo">Añadir un elemento al final de un Array</h2>
+            <p class="Boo">let nuevaLongitud = frutas.push('Naranja')</p>
+            <button onclick="funcionAñ()"> Mostrar </button>
+            <p id="demostracionAñ"></p>
+        </div>
 
-    <div class="eli">
-        <h2>Eliminar el último elemento de un Array</h2>
-        <p>let ultimo = frutas.pop()</p>
-        <button onclick="funcionEl()"> Mostrar </button>
-        <p id="demostracionEl"> </p>
-    </div>
+        <div class="eli">
+            <h2 class="Boo">Eliminar el último elemento de un Array</h2>
+            <p class="Boo">let ultimo = frutas.pop()</p>
+            <button onclick="funcionEl()"> Mostrar </button>
+            <p id="demostracionEl"> </p>
+        </div>
 
-    <div class="arbol">
-        <h2>Arboles</h2>
-        <p>Los árboles son estructuras de datos en los que los nodos tienen jerarquía. Cada nodo puede tener uno o más árboles
-            hijos y así recursivamente hasta llegar a los nodos hojas, que no tienen hijos.</p>
-        <P>este es un jemplo basico de como insertar datos a un nodo </P>
-        <img src="img/arbol.jpeg">
-        <button onclick="funcionAb()"> Mostrar Arbol</button>
-        <P id="demostracionAb"></P>
-    </div>
+        <div class="arbol">
+            <h2>Arboles</h2>
+            <p>Los árboles son estructuras de datos en los que los nodos tienen jerarquía. Cada nodo puede tener uno o
+                más
+                árboles
+                hijos y así recursivamente hasta llegar a los nodos hojas, que no tienen hijos.</p>
+            <P>este es un jemplo basico de como insertar datos a un nodo </P>
+            <img src="img/arbol.jpeg">
+            <button onclick="funcionAb()"> Mostrar Arbol</button>
+            <P id="demostracionAb"></P>
+        </div>
 
-    <script>
-        function funcionB() {
-            document.getElementById("demonstracion").innerHTML = Boolean(10 > 9);
-        }
-        function funcionInt() {
-            var x = 999999999999999;
-            var y = 9999999999999999;
-            document.getElementById("demostracionINT").innerHTML = x + "<br>" + y;
-        }
-        function funcionFloat() {
-            var x = 0.2 + 0.1;
-            document.getElementById("demostracionFloat").innerHTML = "0.2 + 0.1 = " + x;
-        }
-        function funcionString() {
-            var x = "Volvo" + 16 + 4;
-            document.getElementById("demostracionString").innerHTML = x;
-        }
+        <script>
+            function funcionB() {
+                document.getElementById("demonstracion").innerHTML = Boolean(10 > 9);
+            }
+            function funcionInt() {
+                var x = 999999999999999;
+                var y = 9999999999999999;
+                document.getElementById("demostracionINT").innerHTML = x + "<br>" + y;
+            }
+            function funcionFloat() {
+                var x = 0.2 + 0.1;
+                document.getElementById("demostracionFloat").innerHTML = "0.2 + 0.1 = " + x;
+            }
+            function funcionString() {
+                var x = "Volvo" + 16 + 4;
+                document.getElementById("demostracionString").innerHTML = x;
+            }
 
-        function funcionA() {
-            let frutas = ["Manzana", "Banana"];
-            document.getElementById("demostracionA").innerHTML = frutas.length;
-        }
+            function funcionA() {
+                let frutas = ["Manzana", "Banana"];
+                document.getElementById("demostracionA").innerHTML = frutas.length;
+            }
 
-        function funcionAr() {
-            let frutas = ["Manzana", "Banana"];
-            document.getElementById("demostracionAr").innerHTML = frutas[0];
-        }
+            function funcionAr() {
+                let frutas = ["Manzana", "Banana"];
+                document.getElementById("demostracionAr").innerHTML = frutas[0];
+            }
 
-        function funcionArr() {
-            let frutas = ["Manzana", "Banana"];
-            document.getElementById("demostracionArr").innerHTML = frutas[frutas.length - 1];
-        }
+            function funcionArr() {
+                let frutas = ["Manzana", "Banana"];
+                document.getElementById("demostracionArr").innerHTML = frutas[frutas.length - 1];
+            }
 
-        function funcionAñ() {
-            let frutas = ["Manzana", "Banana"];
-            let nuevaLongitud = frutas.push('Naranja');
-            document.getElementById("demostracionAñ").innerHTML = frutas;
-        }
+            function funcionAñ() {
+                let frutas = ["Manzana", "Banana"];
+                let nuevaLongitud = frutas.push('Naranja');
+                document.getElementById("demostracionAñ").innerHTML = frutas;
+            }
 
-        function funcionEl() {
-            let ultimo = frutas.pop();
-            document.getElementById("demostracionEl").innerHTML = frutas;
-        }
+            function funcionEl() {
+                let ultimo = frutas.pop();
+                document.getElementById("demostracionEl").innerHTML = frutas;
+            }
 
-        function funcionAb() {
-            class node{
-                constructor(value) {
-                    this.value = value;
-                    this.left = null;
-                    this.right = null;
-                }
+            function funcionAb() {
+                class node {
+                    constructor(value) {
+                        this.value = value;
+                        this.left = null;
+                        this.right = null;
+                    }
 
-                add(value) {
-                    if (value < this.value) {
-                        this.addToTheLeft(value) ;
-                    } else {
-                        this.addToTheRight(value) ;
+                    add(value) {
+                        if (value < this.value) {
+                            this.addToTheLeft(value);
+                        } else {
+                            this.addToTheRight(value);
+                        }
+                    }
+
+                    addToTheLeft(value) {
+                        if (this.left) {
+                            this.left.add(value);
+                        } else {
+                            this.left = new node(value);
+                        }
+                    }
+
+                    addToTheRight(value) {
+                        if (this.right) {
+                            this.right.add(value);
+                        } else {
+                            this.right = new node(value);
+                        }
                     }
                 }
 
-                addToTheLeft(value) {
-                    if (this.left) {
-                        this.left.add(value);
-                    } else {
-                        this.left = new node(value);
-                    }
-                }
+                const head = new node(10);
+                head.add(15);
+                head.add(9);
+                head.add(8);
+                head.add(9);
+                head.add(10);
+                head.add(16);
+                head.add(7);
+                document.getElementById("demostracionAb").innerHTML = head;
 
-                addToTheRight(value) {
-                    if (this.right) {
-                        this.right.add(value);
-                    } else {
-                        this.right = new node(value);
-                    }
-                }
-            } 
-        
-            const head = new node (10);
-            head.add(15);
-            head.add(9);
-            head.add(8);
-            head.add(9);
-            head.add(10);
-            head.add(16);
-            head.add(7);
-            document.getElementById("demostracionAb").innerHTML = head;
+            }
 
-        }
-
-    </script>
+        </script>
+    </section>
 </body>
 
 </html>
