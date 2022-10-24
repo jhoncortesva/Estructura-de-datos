@@ -26,29 +26,43 @@
     </br>
             <p class="bo">¿Es 10>9 verdadero?</p>
         </br>
-            <button class="b"   onclick="funcionB()">Averiguar</button>
+        <div style="text-indent: 4%">
+            <button  onclick="funcionB()">Averiguar</button>
+        </div>
             <p id="demonstracion"></p>
         </div>
+    </br>
         <div class="enteros">
             <h2 class="Booleanos"> * Enteros</h2>
             <p class="Boo">Los enteros son considerados precisos hasta los 15 dígitos</p>
-            <button onclick="funcionInt()">Demuestralo</button>
+        </br>
+            <div style="text-indent: 4%">
+                <button onclick="funcionInt()">Demuestralo</button>
+            </div>
             <p id="demostracionINT"></p>
         </div>
+    </br>
         <div class="flotantes">
             <h2 class="Booleanos"> * Flotantes</h2>
             <p class="Boo">La aritmética de los flotantes no es del 100% acertada</p>
-            <button onclick="funcionFloat()">Enseñamelo</button>
+        </br>
+            <div style="text-indent: 4%">
+                <button onclick="funcionFloat()">Enseñamelo</button>
+            </div>
             <p id="demostracionFloat"></p>
         </div>
+    </br>
         <div class="cadenas-texto">
             <h2 class="Booleanos"> * Cadenas de texto</h2>
             <p class="Boo">Si juntamos un entero con una cadena de texto, el entero se vuelve una cadena de texto. Esto depende de
                 la forma en como se escriba.</p>
-            <button onclick="funcionString()">Compruebalo</button>
+            </br>
+            <div style="text-indent: 4%">
+                <button onclick="funcionString()">Compruebalo</button>
+            </div>
             <p id="demostracionString"></p>
         </div>
-
+    </br>
         <div class="arrays">
             <h2 class="Booleanos"> * Arrrays en js</h2>
             <h2 class="Boo"> crear un array</h2>
@@ -56,38 +70,53 @@
             <p class="Boo">si introducimos dos datos dentro de nuestro array y usamos el comando length
             </p>
             <p class="Boo">asi mostramos nuestro arrary: console.log(frutas.length)</p>
-            <button onclick="funcionA()"> Mostrar</button>
+        </br>
+            <div style="text-indent: 4%">
+                <button onclick="funcionA()"> Mostrar</button>
+            </div>
             <p id="demostracionA"></p>
         </div>
-
+    </br>
         <div class="ar">
             <h2 class="Boo">Acceder a un elemento de Array mediante su índice</h2>
             <p class="Boo">para ello usaremos las siguientes instrucciones: </p>
             <p class="Boo">let primero = frutas[0] </p>
-            <button onclick="funcionAr()"> Mostrar </button>
+        </br>
+            <div style="text-indent: 4%">
+                <button onclick="funcionAr()"> Mostrar </button>
+            </div>
             <p id="demostracionAr"></p>
         </div>
-
+    </br>
         <div class="arr">
             <p class="Boo">let ultimo = frutas[frutas.length - 1]</p>
-            <button onclick="funcionArr()"> Mostrar </button>
+        </br>
+            <div style="text-indent: 4%">
+                <button onclick="funcionArr()"> Mostrar </button>
+            </div>
             <p id="demostracionArr"></p>
         </div>
-
+    </br>
         <div class="añ">
             <h2 class="Boo">Añadir un elemento al final de un Array</h2>
             <p class="Boo">let nuevaLongitud = frutas.push('Naranja')</p>
-            <button onclick="funcionAñ()"> Mostrar </button>
+        </br>
+            <div style="text-indent: 4%">
+                <button onclick="funcionAñ()"> Mostrar </button>
+            </div>
             <p id="demostracionAñ"></p>
         </div>
-
+    </br>
         <div class="eli">
             <h2 class="Boo">Eliminar el último elemento de un Array</h2>
             <p class="Boo">let ultimo = frutas.pop()</p>
-            <button onclick="funcionEl()"> Mostrar </button>
-            <p id="demostracionEl"> </p>
+        </br>
+            <div style="text-indent: 4%">
+                <button onclick="funcionEl()"> Mostrar </button>
+            </div>
+            <p id="demostracionEl"></p>
         </div>
-
+    </br>
         <div class="arbol">
             <h2>Arboles</h2>
             <p>Los árboles son estructuras de datos en los que los nodos tienen jerarquía. Cada nodo puede tener uno o
@@ -96,7 +125,10 @@
                 hijos y así recursivamente hasta llegar a los nodos hojas, que no tienen hijos.</p>
             <P>este es un jemplo basico de como insertar datos a un nodo </P>
             <img src="img/arbol.jpeg">
-            <button onclick="funcionAb()"> Mostrar Arbol</button>
+        </br>
+            <div style="text-indent: 4%">
+                <button onclick="funcionAb()"> Mostrar Arbol</button>
+            </div>
             <P id="demostracionAb"></P>
         </div>
 
@@ -140,8 +172,9 @@
             }
 
             function funcionEl() {
+                /*let nuevaLongitud = frutas.push('Naranja'); */
                 let ultimo = frutas.pop();
-                document.getElementById("demostracionEl").innerHTML = frutas;
+                document.getElementById("demostracionEl").innerHTML = ultimo;
             }
 
             function funcionAb() {
