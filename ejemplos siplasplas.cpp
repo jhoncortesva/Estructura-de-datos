@@ -3,21 +3,21 @@
 using namespace std;
  
 int main () {
-  // Creating variables
-  int numerote = 5;               // Integer (whole number)
-  float numeroteflotante = 5.99;     // Floating point number
-  double myDoubleNum = 9.98;   // Floating point number
-  char letrota = 'N';         // Character
-  bool elbuliano = false;       // Boolean
-  string cadena = "AEIOU";   // String
+  // Crear variables
+  int numerote = 5;               // Entero (todo el número)
+  float numeroteflotante = 5.99;     // Flotante
+  double myDoubleNum = 9.98;   // Flotante
+  char letrota = 'N';         // Caracter
+  bool elbuliano = false;       // Booleano
+  string cadena = "AEIOU";   // Cadena
    
-  // Print variable values
-  cout << "int: " << numerote << "\n";
-  cout << "float: " << numeroteflotante << "\n";
+  // Mostrar variables
+  cout << "Entero: " << numerote << "\n";
+  cout << "flotante: " << numeroteflotante << "\n";
   cout << "double: " << myDoubleNum << "\n";
-  cout << "char: " << letrota<< "\n";
-  cout << "bool: " << elbuliano << "\n";
-  cout << "string: " << cadena << "\n";
+  cout << "caracter: " << letrota<< "\n";
+  cout << "booleano: " << elbuliano << "\n";
+  cout << "cadena: " << cadena << "\n";
  
   return 0;
 }
