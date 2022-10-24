@@ -47,6 +47,7 @@ head.add(9);
 head.add(10);
 head.add(16);
 head.add(7);
- console.log(head);
+head.add(20);
+console.log(head);
 
 
