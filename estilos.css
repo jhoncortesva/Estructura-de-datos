@@ -30,6 +30,10 @@ header{
     font-size: 300%;
 }
 
+p{
+    font-size: 20px;
+}
+
 .Booleanos{
     text-indent: 3%;
 }
@@ -40,11 +44,11 @@ header{
 
 .bo{
     text-indent: 4%;
-    font-size: 25px;
 }
 .Boo{
     text-indent: 4%;
 }
+
 
 button{
     border-radius: 5px;
@@ -60,3 +64,35 @@ button:hover {
     background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
     color: black;
 }
+
+.im{
+    filter: drop-shadow(0 0 5px black);
+    width: 500px;
+}
+
+.im:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+

@@ -51,3 +51,38 @@ head.add(20);
 console.log(head);
 
 
+class Stack {
+    constructor() {
+        this.stack = [];
+    }
+
+    push(element) {
+        this.stack.push(element);
+        return this.stack;
+    }
+
+    pop() {
+        return this.stack.pop();
+    }
+
+    peek() {
+        return this.stack[this.stack.lenght -1];
+    }
+
+    size() {
+        return this.stack.length;
+    }
+
+    print() {
+        console.log(this.stack);
+    }
+}
+
+const stack = new Stack();
+console.log(stack.size());
+console.log(stack.push("jhon cena"));
+console.log(stack.push("Goku"));
+console.log(stack.size());
+stack.print();
+
+
