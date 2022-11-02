@@ -4,7 +4,7 @@ var frutas = ["Manzana", "Banana"];
 let nuevaLongitud = frutas.push("Naranja");
 console.log(frutas)
 
-// pilas
+// arboles
 
 
 class node {
@@ -50,6 +50,7 @@ head.add(7);
 head.add(20);
 console.log(head);
 
+//pila
 
 class Stack {
     constructor() {

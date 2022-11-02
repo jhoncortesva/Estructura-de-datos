@@ -49,6 +49,11 @@ p{
     text-indent: 4%;
 }
 
+.le{
+    text-indent: 4%;
+    text-shadow: gray 6px 0;
+}
+
 
 button{
     border-radius: 5px;
@@ -65,12 +70,21 @@ button:hover {
     color: black;
 }
 
+img{
+    border: 5px dotted black;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0 0 5px black);
+    
+}
+
 .im{
     filter: drop-shadow(0 0 5px black);
     width: 500px;
 }
 
-.im:hover {
+img:hover {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
@@ -95,4 +109,21 @@ button:hover {
     }
 }
 
+.lis{
+    width: 600px;
+}
+
+.Estaticos{
+    color: white;
+    font-size: 50px;
+}
+
+.din{
+    color: black;
+    font-size: 50px;
+}
+
+section{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
 
