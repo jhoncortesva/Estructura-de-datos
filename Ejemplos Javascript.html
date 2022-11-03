@@ -24,6 +24,7 @@
                 <h2 class="simples"> Dentro de tipos de datos estaticos estan los simples el cual se divide en:</h2>
                 <h2 class="Booleanos"> * Booleanos</h2>
                 <h3 class="Boo"> Ejemplo: </h3>
+            </br>
                 <p class="bo">¿Es 10>9 verdadero?</p>
 
                 <div style="text-indent: 4%">
@@ -74,6 +75,7 @@
             <h2 class="Booleanos"> * Arrrays</h2>
             <p class="Booleanos">El objeto Array de JavaScript es un objeto global que es usado en la construcción de
                 arrays, que son objetos tipo lista de alto nivel.</p>
+            </br>
             <h2 class="Boo"> crear un array</h2>
             <p class="Boo">let frutas = ["Manzana", "Banana"]</p>
             <p class="Boo">si introducimos dos datos dentro de nuestro array y usamos el comando length
@@ -131,10 +133,12 @@
             <h2 class="din">Dinamicas</h2>
             <p>Dentro de esta estructura encontramos las lineales y las no lineales</p>
             <h2 class="simples">Lineales </h2>
+        </br>
             <h2 class="Booleanos"> * Pilas:</h2>
             <div style="text-indent: 3%">
                 <img src="img/pila.png" class="im">
             </div>
+        </br>
             <h2 class="Booleanos"> Métodos de una pila</h2>
             <p class="Booleanos">Tradicionalmente, una pila debe contar con métodos que permitan: agregar nuevos
                 elementos, sacarlos y revisarlos (uno
@@ -149,15 +153,20 @@
             <p class="Booleanos">peek: Retorna el último valor ingresado a la pila, sin sacarlo de ésta</p>
             <p class="Booleanos">size: Retorna el número de elementos que contiene la pila.</p>
             <p class="Booleanos">print: Muestra el contenido de la pila.</p>
+        </br>
             <h2 class="Booleanos">como crear una pila</h2>
+        </br>
             <div style="text-indent: 3%">
                 <img src="img/pi.jpeg">
             </div>
+        </br>
+            
         </div>
         </br>
         <div class="listas">
             <h2 class="Booleanos">* Listas</h2>
             <p class="Booleanos">Para crear una lista vacía se puede hacer de las siguientes dos formas:</p>
+        </br>
             <div style="text-indent: 3%">
                 <img src="img/listas2.JPG" class="lis">
                 <p class="Booleanos">Sea cual sea la forma que utilicen para crear una lista (arreglo) es irrelevante.
@@ -167,17 +176,21 @@
             <p class="Booleanos">Para agregar un elemento al final del arreglo se utiliza el método push(), y para
                 agregar un elemento al inicio del
                 arreglo se utiliza el método unshift(). En el siguiente ejemplo muestro como se utilizan:</p>
+            </br>
             <div style="text-indent: 3%">
                 <img src="img/lista3.png" alt="">
             </div>
+        </br>
             <p class="Booleanos">Y por último los métodos sort() y reverse() nos sirven para ordenar nuestra lista ya
                 sea ascendente o descendentemente:</p>
+            </br>
             <div style="text-indent: 3%">
                 <img src="img/lista4.png" alt="">
             </div>
         </div>
         </br>
         <div class="arbol">
+            <h2 class="simples">No lineales</h2>
             <h2 class="Booleanos"> * Arboles</h2>
             <p class="Booleanos">Los árboles son estructuras de datos en los que los nodos tienen jerarquía. Cada nodo
                 puede tener uno o
@@ -245,46 +258,7 @@
             }
 
             function funcionAb() {
-                class node {
-                    constructor(value) {
-                        this.value = value;
-                        this.left = null;
-                        this.right = null;
-                    }
-
-                    add(value) {
-                        if (value < this.value) {
-                            this.addToTheLeft(value);
-                        } else {
-                            this.addToTheRight(value);
-                        }
-                    }
-
-                    addToTheLeft(value) {
-                        if (this.left) {
-                            this.left.add(value);
-                        } else {
-                            this.left = new node(value);
-                        }
-                    }
-
-                    addToTheRight(value) {
-                        if (this.right) {
-                            this.right.add(value);
-                        } else {
-                            this.right = new node(value);
-                        }
-                    }
-                }
-
-                const head = new node(10);
-                head.add(15);
-                head.add(9);
-                head.add(8);
-                head.add(9);
-                head.add(10);
-                head.add(16);
-                head.add(7);
+                
                 document.getElementById("demostracionAb").innerHTML = head;
 
             }

@@ -51,7 +51,7 @@ p{
 
 .le{
     text-indent: 4%;
-    text-shadow: gray 6px 0;
+    
 }
 
 
@@ -114,7 +114,7 @@ img:hover {
 }
 
 .Estaticos{
-    color: white;
+    
     font-size: 50px;
 }
 
@@ -125,5 +125,9 @@ img:hover {
 
 section{
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    
 }
+
+
+
 

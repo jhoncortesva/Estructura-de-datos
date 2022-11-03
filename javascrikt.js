@@ -1,11 +1,4 @@
-// arrays
-
-var frutas = ["Manzana", "Banana"];
-let nuevaLongitud = frutas.push("Naranja");
-console.log(frutas)
-
 // arboles
-
 
 class node {
     constructor(value) {
