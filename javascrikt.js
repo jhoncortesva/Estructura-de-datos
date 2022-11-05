@@ -1,11 +1,7 @@
-// arrays
 
-var frutas = ["Manzana", "Banana"];
-let nuevaLongitud = frutas.push("Naranja");
-console.log(frutas)
+<script src="https://d3js.org/d3.v7.min.js"></script>
 
-// pilas
-
+// arboles
 
 class node {
     constructor(value) {
@@ -50,6 +46,7 @@ head.add(7);
 head.add(20);
 console.log(head);
 
+//pila
 
 class Stack {
     constructor() {

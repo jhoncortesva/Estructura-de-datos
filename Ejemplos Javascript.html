@@ -15,155 +15,201 @@
             <h2><a href="index.html">JavaScript y su Estructura de Datos</a> </h1>
         </div>
     </header>
-</br>
+    </br>
     <section>
         <div class="titulo-simples">
-            <h1 class="Estaticos">Estáticos</h1>
-        </br>
-            <h2 class="simples"> Dentro de tipos de datos estaticos estan los simples el cual se divide en:</h2>
-            <h2 class="Booleanos"> * Booleanos</h2>
-            <h3 class="Boo"> Ejemplo: </h3>
-    </br>
-            <p class="bo">¿Es 10>9 verdadero?</p>
-        </br>
-        <div style="text-indent: 4%">
-            <button  onclick="funcionB()">Averiguar</button>
-        </div>
-            <p class="Boo" id="demonstracion"></p>
-        </div>
-    </br>
-        <div class="enteros">
-            <h2 class="Booleanos"> * Enteros</h2>
-            <p class="Boo">Los enteros son considerados precisos hasta los 15 dígitos</p>
-        </br>
-            <div style="text-indent: 4%">
-                <button onclick="funcionInt()">Demuestralo</button>
-            </div>
-            <p class="Boo" id="demostracionINT"></p>
-        </div>
-    </br>
-        <div class="flotantes">
-            <h2 class="Booleanos"> * Flotantes</h2>
-            <p class="Boo">La aritmética de los flotantes no es del 100% acertada</p>
-        </br>
-            <div style="text-indent: 4%">
-                <button onclick="funcionFloat()">Enseñamelo</button>
-            </div>
-            <p class="Boo" id="demostracionFloat"></p>
-        </div>
-    </br>
-        <div class="cadenas-texto">
-            <h2 class="Booleanos"> * Cadenas de texto</h2>
-            <p class="Boo">Si juntamos un entero con una cadena de texto, el entero se vuelve una cadena de texto. Esto depende de
-                la forma en como se escriba.</p>
+            <div>
+                <h1 class="Estaticos">Estáticos</h1>
+
+                <h2 class="simples"> Dentro de tipos de datos estaticos estan los simples el cual se divide en:</h2>
+                <h2 class="Booleanos"> * Booleanos</h2>
+                <h3 class="Boo"> Ejemplo: </h3>
             </br>
-            <div style="text-indent: 4%">
-                <button onclick="funcionString()">Compruebalo</button>
+                <p class="bo">¿Es 10>9 verdadero?</p>
+
+                <div style="text-indent: 4%">
+                    <button onclick="funcionB()">Averiguar</button>
+                </div>
+                <p class="Boo" id="demonstracion"></p>
             </div>
-            <p class="Boo" id="demostracionString"></p>
+        
+            </br>
+            <div class="enteros">
+                <h2 class="Booleanos"> * Enteros</h2>
+                <p class="Boo">Los enteros son considerados precisos hasta los 15 dígitos</p>
+                </br>
+                <div style="text-indent: 4%">
+                    <button onclick="funcionInt()">Demuestralo</button>
+                </div>
+                <p class="Boo" id="demostracionINT"></p>
+            </div>
+            </br>
+            <div class="flotantes">
+                <h2 class="Booleanos"> * Flotantes</h2>
+                <p class="Boo">La aritmética de los flotantes no es del 100% acertada</p>
+                </br>
+                <div style="text-indent: 4%">
+                    <button onclick="funcionFloat()">Enseñamelo</button>
+                </div>
+                <p class="Boo" id="demostracionFloat"></p>
+            </div>
+            </br>
+            <div class="cadenas-texto">
+                <h2 class="Booleanos"> * Cadenas de texto</h2>
+                <p class="Boo">Si juntamos un entero con una cadena de texto, el entero se vuelve una cadena de texto. Esto
+                depende de
+                la forma en como se escriba.</p>
+                </br>
+                <div style="text-indent: 4%">
+                    <button onclick="funcionString()">Compruebalo</button>
+                </div>
+                <p class="Boo" id="demostracionString"></p>
+            </div>
         </div>
-    </br>
+        </br>
         <div>
             <h2 class="simples"> Tambien encontramos los Compuestos:</h2>
         </div>
-    </br>
+        </br>
         <div class="arrays">
             <h2 class="Booleanos"> * Arrrays</h2>
-            <p class="Booleanos">El objeto Array de JavaScript es un objeto global que es usado en la construcción de arrays, que son objetos tipo lista de alto nivel.</p>
+            <p class="Booleanos">El objeto Array de JavaScript es un objeto global que es usado en la construcción de
+                arrays, que son objetos tipo lista de alto nivel.</p>
+            </br>
             <h2 class="Boo"> crear un array</h2>
             <p class="Boo">let frutas = ["Manzana", "Banana"]</p>
             <p class="Boo">si introducimos dos datos dentro de nuestro array y usamos el comando length
             </p>
             <p class="Boo">asi mostramos nuestro arrary: console.log(frutas.length)</p>
-        </br>
+            </br>
             <div style="text-indent: 4%">
                 <button onclick="funcionA()"> Mostrar</button>
             </div>
             <p class="Boo" id="demostracionA"></p>
         </div>
-    </br>
+        </br>
         <div class="ar">
             <h2 class="Boo">Acceder a un elemento de Array mediante su índice</h2>
             <p class="Boo">para ello usaremos las siguientes instrucciones: </p>
-            <p class="Boo">let primero = frutas[0] </p>
-        </br>
+            <p class="le">let primero = frutas[0] </p>
+            </br>
             <div style="text-indent: 4%">
                 <button onclick="funcionAr()"> Mostrar </button>
             </div>
             <p class="Boo" id="demostracionAr"></p>
         </div>
-    </br>
-        <div class="arr">
-            <p class="Boo">let ultimo = frutas[frutas.length - 1]</p>
         </br>
+        <div class="arr">
+            <p class="le">let ultimo = frutas[frutas.length - 1]</p>
+            </br>
             <div style="text-indent: 4%">
                 <button onclick="funcionArr()"> Mostrar </button>
             </div>
             <p class="Boo" id="demostracionArr"></p>
         </div>
-    </br>
+        </br>
         <div class="añ">
             <h2 class="Boo">Añadir un elemento al final de un Array</h2>
             <p class="Boo">let nuevaLongitud = frutas.push('Naranja')</p>
-        </br>
+            </br>
             <div style="text-indent: 4%">
                 <button onclick="funcionAñ()"> Mostrar </button>
             </div>
             <p class="Boo" id="demostracionAñ"></p>
         </div>
-    </br>
+        </br>
         <div class="eli">
             <h2 class="Boo">Eliminar el último elemento de un Array</h2>
             <p class="Boo">let ultimo = frutas.pop()</p>
-        </br>
+            </br>
             <div style="text-indent: 4%">
                 <button onclick="funcionEl()"> Mostrar </button>
             </div>
             <p class="Boo" id="demostracionEl"></p>
         </div>
-    </br>
+        </br>
 
         <div>
-            <h2>Dinamicas</h2>
+            <h2 class="din">Dinamicas</h2>
             <p>Dentro de esta estructura encontramos las lineales y las no lineales</p>
             <h2 class="simples">Lineales </h2>
+        </br>
             <h2 class="Booleanos"> * Pilas:</h2>
             <div style="text-indent: 3%">
                 <img src="img/pila.png" class="im">
             </div>
+        </br>
             <h2 class="Booleanos"> Métodos de una pila</h2>
-            <p class="Booleanos">Tradicionalmente, una pila debe contar con métodos que permitan: agregar nuevos elementos, sacarlos y revisarlos (uno
-                o más). Si bien al hacer una implementación propia, podemos llamar a estos métodos de cualquier forma, </P> <p class="Booleanos"> existe una
-                convención acordada de usar las siguientes </P> <p class="Booleanos"> definiciones:</p>
+            <p class="Booleanos">Tradicionalmente, una pila debe contar con métodos que permitan: agregar nuevos
+                elementos, sacarlos y revisarlos (uno
+                o más). Si bien al hacer una implementación propia, podemos llamar a estos métodos de cualquier forma,
+            </P>
+            <p class="Booleanos"> existe una
+                convención acordada de usar las siguientes </P>
+            <p class="Booleanos"> definiciones:</p>
             </br>
             <p class="Booleanos">push: Agrega un nuevo valor a la pila, ubicándolo al final de ésta.</p>
             <p class="Booleanos">pop: Retorna el último valor ingresado a la pila, sacándolo de ésta.</p>
             <p class="Booleanos">peek: Retorna el último valor ingresado a la pila, sin sacarlo de ésta</p>
             <p class="Booleanos">size: Retorna el número de elementos que contiene la pila.</p>
             <p class="Booleanos">print: Muestra el contenido de la pila.</p>
+        </br>
             <h2 class="Booleanos">como crear una pila</h2>
+        </br>
             <div style="text-indent: 3%">
                 <img src="img/pi.jpeg">
             </div>
+        </br>
+            
         </div>
-    </br>
+        </br>
+        <div class="listas">
+            <h2 class="Booleanos">* Listas</h2>
+            <p class="Booleanos">Para crear una lista vacía se puede hacer de las siguientes dos formas:</p>
+        </br>
+            <div style="text-indent: 3%">
+                <img src="img/listas2.JPG" class="lis">
+                <p class="Booleanos">Sea cual sea la forma que utilicen para crear una lista (arreglo) es irrelevante.
+                </p>
+            </div>
+            </br>
+            <p class="Booleanos">Para agregar un elemento al final del arreglo se utiliza el método push(), y para
+                agregar un elemento al inicio del
+                arreglo se utiliza el método unshift(). En el siguiente ejemplo muestro como se utilizan:</p>
+            </br>
+            <div style="text-indent: 3%">
+                <img src="img/lista3.png" alt="">
+            </div>
+        </br>
+            <p class="Booleanos">Y por último los métodos sort() y reverse() nos sirven para ordenar nuestra lista ya
+                sea ascendente o descendentemente:</p>
+            </br>
+            <div style="text-indent: 3%">
+                <img src="img/lista4.png" alt="">
+            </div>
+        </div>
+        </br>
         <div class="arbol">
+            <h2 class="simples">No lineales</h2>
             <h2 class="Booleanos"> * Arboles</h2>
-            <p class="Booleanos">Los árboles son estructuras de datos en los que los nodos tienen jerarquía. Cada nodo puede tener uno o
+            <p class="Booleanos">Los árboles son estructuras de datos en los que los nodos tienen jerarquía. Cada nodo
+                puede tener uno o
                 más
                 árboles
                 hijos y así recursivamente hasta llegar a los nodos hojas, que no tienen hijos.</p>
             <P class="Booleanos">este es un jemplo basico de como insertar datos a un nodo </P>
-        </br>
-            <div  style="text-indent: 3%">
-                <img  src="img/arbol.jpeg">
+            </br>
+            <div style="text-indent: 3%">
+                <img src="img/arbol.jpeg">
             </div>
-        </br>
+            </br>
             <div style="text-indent: 4%">
                 <button onclick="funcionAb()"> Mostrar Arbol</button>
             </div>
-            <P class="Boo"  id="demostracionAb"></P>
+            <P class="Boo" id="demostracionAb"></P>
         </div>
+        </br>
+
 
         <script>
             function funcionB() {
@@ -205,52 +251,14 @@
             }
 
             function funcionEl() {
-                /*let nuevaLongitud = frutas.push('Naranja'); */
+                let frutas = ["Manzana", "Banana"];
+                let nuevaLongitud = frutas.push('Naranja');
                 let ultimo = frutas.pop();
-                document.getElementById("demostracionEl").innerHTML = ultimo;
+                document.getElementById("demostracionEl").innerHTML = frutas;
             }
 
             function funcionAb() {
-                class node {
-                    constructor(value) {
-                        this.value = value;
-                        this.left = null;
-                        this.right = null;
-                    }
-
-                    add(value) {
-                        if (value < this.value) {
-                            this.addToTheLeft(value);
-                        } else {
-                            this.addToTheRight(value);
-                        }
-                    }
-
-                    addToTheLeft(value) {
-                        if (this.left) {
-                            this.left.add(value);
-                        } else {
-                            this.left = new node(value);
-                        }
-                    }
-
-                    addToTheRight(value) {
-                        if (this.right) {
-                            this.right.add(value);
-                        } else {
-                            this.right = new node(value);
-                        }
-                    }
-                }
-
-                const head = new node(10);
-                head.add(15);
-                head.add(9);
-                head.add(8);
-                head.add(9);
-                head.add(10);
-                head.add(16);
-                head.add(7);
+                
                 document.getElementById("demostracionAb").innerHTML = head;
 
             }
