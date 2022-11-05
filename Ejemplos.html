@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>C# Ejemplos</title>
+</head>
+
+<body>
+    <header>
+        <div class="Javascript">
+            <h2><a href="index.html">JavaScript y su Estructura de Datos</a> </h1>
+        </div>
+    </header>
+</br>
+    <section>
+
+        
+            <center>
+
+        <h1> Estaticos</h1>
+        <h1> Tipos Primitivos en C#</h1>
+        <p id="texto">
+            Se llaman tipos primitivos a los tipos de datos simples que pueden tener las variables, 
+                es decir, todos los tipos de valores básicos que podemos usar, sin entrar en estructuras más complejas como podrían ser los objetos o arrays.
+
+
+        </p>
+
+
+
+
+        </br>
+        <h2 class="simples"> En C# disponemos de los siguientes tipos de datos primitivos</h2>
+        </center>
+    
+        <h2 class="Booleanos"> * Booleanos</h2>
+    
+            <p>El boleano es el tipo que guarda un valor positivo o negativo, un sí o un no.</p>
+             <p> * Boll: cuyos posibles valores puede ser true o false.</p> 
+        
+            <h3 class="Boo"> Ejemplo: </h3>
+    
+    
+            <div class="boleano">
+                <div style="text-indent: 3%">
+                    <img src="img/bool.png" class="im"> 
+                    <img src="img/bol1.png" >
+                </div>
+        
+
+    
+            </div>  
+            <div class="enteros"> 
+                <center>
+
+            
+
+                <h2 class="enteros"> * enteros</h2>
+                 <p id="texto">
+
+                 
+            Existen varios tipos de datos enteros, dependiendo de la capacidad. Además puedes tenerlos con y sin signo.
+                 Para los tipos de datos enteros y con signo, de menor capacidad a mayor capacidad son tenemos los siguientes:</p>  
+                 
+                <br><br>
+                    </center>
+                    <p id="texto">
+                      
+                        short: Números enteros pequeños (16 bits) <br>
+                        int: Números enteros (32 bits)  <br>
+                        long: Números enteros grandes (64 bits)</p>
+                     
+                
+                        <h3>Ejemplo:</h3>   
+               
+                        <img src="img/int.png" class="im">
+                        <img src="img/int1.png" >
+
+                </p>
+
+                </div>
+
+            </div>
+            <center>
+
+          
+            <h2 > * flotantes</h2>
+            <div>
+                <p id="texto">
+                Los números en coma flotante 
+                    son lo que llamamos comúnmente en matemáticas como enteros con decimales. Existen de tres tipos: <br>
+                        float: Números con coma flotante de 32 bits <br>
+                        double: Números con coma flotante de 64 bits <br><br>
+
+                        double flotanteDouble = 13.5;
+                        
+                     </p>  <br><br>
+
+                        <p id="texto">Aquí es interesante mencionar que los literales expresados 
+                            en coma flotante para almacenar el variables de tipo float deben contener una "f" al final. <br><br>
+                            float flotante = 13.5f; </p> <br><br>
+
+                            <p id="texto">
+                                Estos son los tipos de datos en coma flotante más comunes, sin embargo también tenemos un tipo de datos llamado "decimal", que sería un float aporta todavía más alcance de valores (más capacidad para valores grandes) que se puede usar para cálculos financieros y monetarios. <br><br>
+
+                                 decimal: Números con decimales de 128 bits 
+
+                            </p>
+                           
+
+                        </center>
+            </div>
+            <h3>Ejemplo:</h3>
+            <img src="img/flotante.png" class="im">
+            <img src="img/flotante1.png" >
+
+            </div>
+            <center>
+
+          
+            <h2 class="string"> * String</h2>
+            <div class="string">
+                <p id="texto">Existen otros tipos de datos en C# que merece la pena comentar, comenzando por las cadenas o "string" que en C# son objetos, 
+                    pero a la hora de declararlas el aspecto es idéntico a la declaración de un tipo de datos simple. <br>
+                    estring: una cadena de caracteres Unicode</p>
+            </center>
+                    <h3>Ejemplo:</h3>
+                    <img src="img/str.png" class="im">
+                    <img src="img/str1.png" >
+
+            </div>
+            <center>
+
+          
+            <h2 class="arrays"> * Arrays</h2>
+            <div class="arrays">
+                <p id="texto">La declaración de arrays en C# es exactamente igual que la de cualquier otra variable. 
+                    En el caso de los arrays, tendremos que especificar cuál va a ser el tipo de los elementos que contendrá. <br><br>
+                   
+                        int[] arrayDeEnteros; <br>
+                        string[] arrayDeStrings; <br>
+                        Person[] arrayDePersonas;</h3> </p>
+             </center>
+                        <h3>Ejemplo:</h3>  
+           
+                        <img src="img/arrays.png" class="im">
+                        <img src="img/arrays1.png" > <br>
+                        <img src="img/arrays2.png" >
+
+             <center>   
+            <h2>Dinamicas</h2>  
+            <h2>Lineales</h2>         
+            <h2 class="arrays"> * Pilas</h2>
+         
+                <p id="texto" > En esta pila, podemos meter los datos del tipo que indiquemos, por ejemplo, podemos hacer una pila de cadenas, de números, objetos, etc.
+
+                    Para crear un Stack en C# </p>
+                </center> 
+                <p>Stack string pila = new Stack string ();</p>
+                    <p>Si se quiere de otro tipo, seria cambiar string por el tipo que se quiera utilizar. <br>
+
+                        Para insertar elementos en la pila, lo haremos con push.</p>
+                        <h4>pila.Push("a"); <br>
+                            pila.Push("b"); <br>
+                            pila.Push("c"); <br>
+                            pila.Push("d"); <br>
+                            pila.Push("e");</h4>
+                        <p>Si queremos quitar algún elemento,
+                             lo haremos con pop, pero recuerda sacara el ultimo que se metió, en este caso el string «e».</p>
+                             <h4>pila.Pop();</h4>
+                             <p>Si queremos saber quien es el primer elemento de la pila, lo podemos saber con Peek().
+                                 Este no elimina de la pila, solo lo devuelve.</p>
+                                 <h4>Console.WriteLine(pila.Peek());</h4>
+                        <p>Para saber el numero de elementos de la pila usaremos la propiedad Count.</p>
+                        <h4>Console.WriteLine("Num elementos: " + pila.Count);</h4>
+                    <p>Para recorrer la pila, lo podemos hacer con un foreach:</p>
+                    <h4>foreach (string p in pila) <br>
+                        { <br>
+                            Console.WriteLine(p); <br>
+                        }</h4>
+                        
+                    <p>Otra forma de recorrer una pila, seria así:</p>
+                    <h4>while (pila.Count != 0) <br>
+                        { <br>
+                            string p = pila.Pop(); <br>
+                            Console.WriteLine(p); <br>
+                        }</h4>
+                    
+                    <h3>Ejemplo:</h3>
+                    <img src="img/pilac.png" class="im"> <br><br>
+
+
+                    <center>   
+                    <h2 class="arrays"> * Colas</h2>
+                    <p id="texto" > Podemos crear colas si nos apoyamos en la clase Queue. En una cola podremos introducir elementos por la cabeza ("Enqueue", encolar) y extraerlos por el extremo opuesto, el final de la cola ("Dequeue", desencolar). Este tipo de estructuras se nombran a veces también por las siglas FIFO (First In First Out, lo primero en entrar es lo primero en salir)</p>
+                    </center>
+
+                    <p>Para crear una cola es tan sencillo como directamente 
+                        instanciarla y desde ahí simplemente debemos llamar al método Enqueue.</p>   
+                   
+
+                        <h4>Queue string fila = new Queue string (); <br>
+                            fila.Enqueue(5); <br>
+                            fila.Enqueue(3); <br>
+                            fila.Enqueue(7); <br>
+                            fila.Enqueue(1);</h4>
+
+                            <p>"Peek", que mira el valor que hay en la cabeza de la cola, pero sin extraerlo. <br>
+                                "Clear", que borra todo el contenido de la cola. <br>
+                                "Contains", que indica si un cierto elemento está en la cola. <br>
+                                "ToArray", que devuelve toda la cola convertida a un array. <br>
+                                Al igual que en la pila, también tenemos una propiedad "Count", que nos indica cuántos elementos contiene.</p>
+
+                            <img src="img/colac.png" class="im"> 
+                            <img src="img/cola1.png" class="il"> <br>
+
+
+                            <h2>No Lineales</h2>
+                            <h2 class="arrays"> * Arboles</h2>
+                            <p id="texto" > Un árbol binario es una estructura de datos de tipo árbol en donde cada uno de los nodos del
+                                árbol puede tener 0, 1, ó 2 sub árboles llamados de acuerdo a su caso</p>
+
+                            <p>Existen cuatro tipos de árbol binario: <br> <br>
+                                1. Arboles Binarios Distintos. <br>
+                                2. Arboles Binarios Similares. <br>
+                                3. Arboles Binarios Equivalentes. <br>
+                                4. Arboles Binarios Completos.</p> <br>
+
+                            <h3>Arboles Binarios Distintos.</h3> 
+                            <p>Se dice que dos árboles binarios son distintos cuando sus estructuras son diferentes. </p> <br>
+
+
+                            <h3>Arboles Binarios Similares.</h3> 
+                            <p>Dos árboles binarios son similares cuando sus estructuras son idénticas, pero la información
+                                que contienen sus nodos es diferente.</p> <br>
+                            
+                                <h3>Arboles Binarios Equivalentes.</h3> 
+                                <p>Son aquellos árboles que son similares y que además los nodos contienen la misma
+                                    información. </p> <br>
+                                
+                                    <h3>Arboles Binarios Completos.</h3> 
+                                    <p>Son aquellos árboles en los que todos sus nodos excepto los del último nivel, tienen dos hijos:
+                                        el subárbol izquierdo y el subárbol derecho.</p> <br>
+
+                                        <h3>Ejemplo:</h3>
+                                        
+                                        <h2 class="arrays"> * NODOS </h2>
+
+                                        <img src="img/arbol2.png" class="im">  <br><br>
+
+                                        <img src="img/arbol1.png" class="im"> 
+                                         
+                                        <h2 class="arrays"> * INSERTAR </h2>
+                                        <img src="img/insertar.png" class="im"> <br>
+
+                                        <h2 class="arrays"> * INORDEN </h2>
+                                        <img src="img/inorden.png" class="im"> <br>
+
+                                        <h2 class="arrays"> * PREORDEN </h2>
+                                        <img src="img/preorden.png" class="im"> <br>
+
+                                        <h2 class="arrays"> * POSTORDEN </h2>
+                                        <img src="img/postorden.png" class="im"> <br>
+
+                                         <h2 class="arrays"> * resultado </h2>
+                                        <img src="img/arbolrr.png" class="il"> <br>
+                                      
+                                       
+                                        
+
+                                        <h2 class="arrays"> * GRAFOS</h2>
+
+                                        <p id="texto" >Un grafo G = (V, A) está formado por un conjunto de elementos llamados vértices “V” y un conjunto
+                                            de aristas “A” que conectan a los distintos vértices. En ocasiones los vértices son llamados nodos
+                                            y las aristas arcos.
+                                            </p>
+                                            <p>Donde: <br>
+                                                Vértices = {A, B, C, D, E} <br>
+                                                Aristas = {(A, B), (A, D), (B, C), (B, D), (B, E), (C, E), (D, E), (E, D)}</p>
+
+                                            <h3>Tipos de grafos</h3> <br>
+
+                                            <p>Existen dos tipos de grafos: los no dirigidos y los dirigidos.</p> <br>
+
+                                            <h3>Grafos No Dirigidos.</h3>
+
+                                            <p>Son aquellos en los cuales las aristas no están orientadas (no se representan con flechas). Cada
+                                                arista se representa entre paréntesis, separando sus vértices por comas, y teniendo en cuenta
+                                                que ambos vértices son origen y destino a la vez: (Vi, Vj) = (Vj, Vi).</p>
+
+                                                <h3>Grafos Dirigidos (Dígrafos).</h3>
+
+                                                <p>Son aquellos en los cuales las aristas están orientadas (se representan con flechas). Cada arista
+                                                    se representa entre paréntesis, separando sus vértices por comas y teniendo en cuenta que (Vi,
+                                                    Vj) ≠ (Vj, Vi).</p>
+
+                                            <h3>Los grafos pueden representarse de varias formas en una computadora:</h3>
+                                            <h3>Listas adyacentes</h3> <br>
+                                            
+                                            <p>Cada vértice tiene una lista de vértices los cuales son adyacentes a él.
+                                                 </p> <br>
+                                                
+                                                <h3>Listas de pares ordenados (incidentes)</h3>
+                                                <p>Las aristas se representan como un arreglo de pares ordenados.</p>
+
+                                            <h3>Matriz de adyacencia.</h3>
+                                            <p>El grafo se representa por una matriz de tamaño VxV, donde V son los vértices que unen a
+                                                los nodos, la conjunción de los dos vértices representa la arista.
+                                                </p>
+
+                                            
+                                        <h3>Ejemplo:</h3>   <br> 
+                
+                                         <h2 class="arrays"> * VERTICE </h2>
+
+                                         <img src="img/vertice.png" class="im">  <br><br>
+                                         <h2 class="arrays"> * GRAFO </h2>
+                                         <img src="img/grafo1.png" class="im">  <br><br>
+                                         <img src="img/grafo2.png" class="im">  
+                                         <img src="img/grafor.png" class="il">  <br><br>
+                                         
+                                         
+                                        
+                                        
+                                        
+
+                            
+
+               
+
+                </div>
+              
+
+            </div>
+
+         
+
+    
+
+
+
+</body>
+
+</html>
