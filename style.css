@@ -1,9 +1,30 @@
+
+
 p{
     font-size: 20px;
 }
 
-.Booleanos{
-    text-indent: 3%;
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(202, 185, 240, 0.5) 0%, rgba(247, 211, 236, 0.5) 
+    100%), url(img/logoc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.clol{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 300%;
 }
 
 
