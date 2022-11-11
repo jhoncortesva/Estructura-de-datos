@@ -34,7 +34,8 @@ namespace Grafo
         {
             if (oVertice != null)
                 Console.WriteLine(oVertice.Valor);
-            foreach (var oV in oVertice.Aristas)
+                foreach (var oV in oVertice.Aristas)
+                
             {
                 Camino(oV);
             }
