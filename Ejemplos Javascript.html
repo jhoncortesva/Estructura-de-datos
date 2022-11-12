@@ -205,6 +205,35 @@
                 </div>
             </div>
             </br>
+
+            <div class="colas">
+                <h2 class="Booleanos"> Colas</h2>
+                <p class="Booleanos">Las colas son estructuras de datos de tipo FIFO (First In First Out) es decir,
+                    el primer valor que se inserta en la lista es el primer valor que se va a sacar.
+                </p>
+                </br>
+                <p class="Booleanos">Las colas son un tipo de lista con la particularidad de que solo se pueden insertar elementos por la
+                    cabecera de la lista y solo se pueden sacar por el final de la lista, en </p> <p class="Booleanos">otras palabras, se saca
+                    siempre el elemento que lleve más tiempo dentro de la lista.
+                </p>
+                </br>
+                <h2 class="Booleanos"> Estructura: </h2>
+                <div class="Booleanos">
+                    <img src="img/co.png" alt="">
+                </div>
+                </br>
+                <h2 class="Booleanos"> Caracteristicas</h2>
+                <p class="Booleanos"> ■ Se encolan items por el final de la lista</p>
+                <p class="Booleanos"> ■ Se desencolan items por el comienzo de la lista</p>
+                <p class="Booleanos"> ■ Tanto encolar como desencolar son operaciones inmediatas</p>
+                </br>
+                <h2 class="Booleanos">Ejemplo de como crear una cola en js</h2>
+                <div class="Booleanos">
+                    <img src="img/ColaJS.jpg" alt="">
+                </div>
+            </div>
+
+            </br>
             <div class="arbol">
                 <h2 class="simples"> No lineales</h2>
                 </br>
@@ -260,6 +289,8 @@
 
                 <P class="Booleanos">este es un jemplo basico de como insertar datos a un nodo </P>
                 </br>
+                <h2 class="Booleanos"> creacion del Arbol</h2>
+                </br>
                 <div style="text-indent: 3%">
                     <img src="img/arbol.jpeg">
                 </div>
@@ -304,7 +335,6 @@
                 <div class="Booleanos">
                     <img src="img/post.png" alt="">
                 </div>
-
             </div>
 
             </br>
@@ -317,15 +347,82 @@
                 <div class="Booleanos">
                     <img src="img/gra.png" alt="">
                 </div>
-                <p class="Booleanos">Notarás que cada vértice esta nombrado en este caso. Para nuestro ejemplo los vértices son A, B, C y
-                    D. Cuando queremos definir una arista la podemos determinar como (Vértice, Vértice), que representa
+                <p class="Booleanos">Notarás que cada vértice esta nombrado en este caso. Para nuestro ejemplo los
+                    vértices son A, B, C y
+                    D. Cuando queremos definir una arista la podemos determinar </p>
+                <p class="Booleanos">como (Vértice, Vértice), que representa
                     los vértices que conecta dicha arista. Entonces las aristas del grafo anterior estarán representadas
-                    cómo:</p>
-                    
+                    cómo:
+                </p>
+                </br>
+                <div class="Booleanos">
+                    <img src="img/gra2.png" alt="">
+                </div>
+                </br>
+                <h2 class="Booleanos">Grafo dirigido o Dígrafo</h2>
+                <p class="Booleanos">Un grafo dirigido es aquél en el que los vértices tienen un orden, y este orden lo
+                    representamos con flechas en las aristas. Gráficamente se ve como sigue: </p>
+                </br>
+                <div class="Booleanos">
+                    <img src="img/di.png" alt="">
+                </div>
+                <p class="Booleanos">Notarás que ahora sí importa cómo representamos cada vértice, ya que indica desde
+                    donde hacia donde va la flecha y así el orden que siguen los nodos.</p>
+                </br>
+                <h2 class="Booleanos">path</h2>
+                <p class="Booleanos">Un path o trayectoria es una secuencia de vértices de manera que están conectados
+                    por sus aristas.
+                    Por ejemplo, en el grafo anterior tenemos un path que se define como </p>
+                <p class="Booleanos">[LIM, CMX, SCL, AQP]. Esta
+                    trayectoria está usando 3 aristas para conectar los vértices. A la cantidad de aristas que usa un
+                    path le llamamos el largo o length del path.</p>
+                <p class="Booleanos"> Podemos tener un path de un vértice hacia si mismo, a
+                    eso le llamamos loop, y tienen un length de 0.
+                </p>
+                </br>
+                <h2 class="Booleanos"> Ciclo</h2>
+                <p class="Booleanos">Decimos que se ha formado un ciclo cuando un vértice se repite. Si sólo se tratara
+                    del último y el
+                    primer vértice hablamos de un ciclo simple, ya que son el mismo. Si se </p>
+                <p class="Booleanos"> repiten más vértices menos el
+                    primero y el último hablamos de un ciclo general.
+                </p>
+                </br>
+                <div class="Booleanos">
+                    <img src="img/ciclo.png" alt="">
+                </div>
+                </br>
+                <h2 class="Booleanos"> Grafo Ponderado</h2>
+                <p class="Booleanos">Un grafo ponderado es aquél en que cada arista te da información de la conexión
+                    entre uno y otro
+                    vértice. Por ejemplo, imaginemos que cada sede (nodo en nuestro </p>
+                <p class="Booleanos"> grafo) va un número de semanas por
+                    delante de la anterior, esto se puede representar como pesos en semanas en el grafo.
+                </p>
+                </br>
+                <div class="Booleanos">
+                    <img src="img/pon.png" alt="">
+                </div>
+                </br>
+                <h2 class="Booleanos"> Matriz Adyacente </h2>
+                <p class="Booleanos"> Además de la forma gráfica tenemos otras formas de reprensentar los grafos. Una de
+                    estas formas es la matriz adyacente.
+                    Por ejemplo, asumiendo nuestro primer grafo</p>
+                <p class="Booleanos"> no dirigido, tendríamos su matriz adyacente como sigue:
+                </p>
+                </br>
+                <div class="Booleanos">
+                    <img src="img/ma.png" alt="">
+                </div>
+                <p class="gra">Nota:</p>
+                <p class="Booleanos"> El vértice LIM esta unido a CMX y AQP, que lo puedes ver refleajado en la matriz
+                    de la derecha con 1 en dichas intersecciones.
+                </p>
             </div>
+            </br>
         </section>
     </div>
-
+    </br>
     <script>
         function funcionB() {
             document.getElementById("demonstracion").innerHTML = Boolean(10 > 9);

@@ -18,8 +18,6 @@ header{
 }
 
 #contenedor{
-    
-    
     background-image: /*linear-gradient(to top, rgba(202, 185, 240, 0.5) 0%, rgba(247, 211, 236, 0.5) 
     100%), */ url(img/fooo.jpg);
 }
@@ -42,6 +40,12 @@ p{
 
 .Booleanos{
     text-indent: 3%;
+    text-align: justify;
+}
+
+.gra{
+    text-indent: 3%;
+    font-weight: bold;
 }
 
 .simples{
@@ -71,7 +75,6 @@ button{
 }
 
 button:hover {
-    
     background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
     color: black;
 }
@@ -81,8 +84,7 @@ img{
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-    filter: drop-shadow(0 0 5px black);
-    
+    filter: drop-shadow(0 0 5px black); 
 }
 
 .im{
@@ -120,7 +122,6 @@ img:hover {
 }
 
 .Estaticos{
-    
     font-size: 50px;
 }
 
@@ -133,7 +134,7 @@ section{
     margin: 15px auto;
     text-align: left;
     /*background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
-   /* background-color: #DCD9D4;
+    /* background-color: #DCD9D4;
     background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
     background-blend-mode: soft-light,screen; */
     background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
