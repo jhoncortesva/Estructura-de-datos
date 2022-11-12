@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    
+
     <title>JS Ejemplos</title>
 </head>
 
@@ -17,254 +17,368 @@
         </div>
     </header>
     </br>
-    <section>
-        <div class="titulo-simples">
+    <div id="contenedor">
+        </br>>
+        <section>
+            <div class="titulo-simples">
+                <div>
+                    <h1 class="Estaticos">Estáticos</h1>
+
+                    <h2 class="simples"> Dentro de tipos de datos estaticos estan los simples el cual se divide en:</h2>
+                    <h2 class="Booleanos"> * Booleanos</h2>
+                    <h3 class="Boo"> Ejemplo: </h3>
+                    </br>
+                    <p class="bo">¿Es 10>9 verdadero?</p>
+
+                    <div style="text-indent: 4%">
+                        <button onclick="funcionB()">Averiguar</button>
+                    </div>
+                    <p class="Boo" id="demonstracion"></p>
+                </div>
+
+                </br>
+                <div class="enteros">
+                    <h2 class="Booleanos"> * Enteros</h2>
+                    <p class="Boo">Los enteros son considerados precisos hasta los 15 dígitos</p>
+                    </br>
+                    <div style="text-indent: 4%">
+                        <button onclick="funcionInt()">Demuestralo</button>
+                    </div>
+                    <p class="Boo" id="demostracionINT"></p>
+                </div>
+                </br>
+                <div class="flotantes">
+                    <h2 class="Booleanos"> * Flotantes</h2>
+                    <p class="Boo">La aritmética de los flotantes no es del 100% acertada</p>
+                    </br>
+                    <div style="text-indent: 4%">
+                        <button onclick="funcionFloat()">Enseñamelo</button>
+                    </div>
+                    <p class="Boo" id="demostracionFloat"></p>
+                </div>
+                </br>
+                <div class="cadenas-texto">
+                    <h2 class="Booleanos"> * Cadenas de texto</h2>
+                    <p class="Boo">Si juntamos un entero con una cadena de texto, el entero se vuelve una cadena de
+                        texto.
+                        Esto
+                        depende de
+                        la forma en como se escriba.</p>
+                    </br>
+                    <div style="text-indent: 4%">
+                        <button onclick="funcionString()">Compruebalo</button>
+                    </div>
+                    <p class="Boo" id="demostracionString"></p>
+                </div>
+            </div>
+            </br>
             <div>
-                <h1 class="Estaticos">Estáticos</h1>
-
-                <h2 class="simples"> Dentro de tipos de datos estaticos estan los simples el cual se divide en:</h2>
-                <h2 class="Booleanos"> * Booleanos</h2>
-                <h3 class="Boo"> Ejemplo: </h3>
-            </br>
-                <p class="bo">¿Es 10>9 verdadero?</p>
-
-                <div style="text-indent: 4%">
-                    <button onclick="funcionB()">Averiguar</button>
-                </div>
-                <p class="Boo" id="demonstracion"></p>
+                <h2 class="simples"> Tambien encontramos los Compuestos:</h2>
             </div>
-        
             </br>
-            <div class="enteros">
-                <h2 class="Booleanos"> * Enteros</h2>
-                <p class="Boo">Los enteros son considerados precisos hasta los 15 dígitos</p>
+            <div class="arrays">
+                <h2 class="Booleanos"> * Arrrays</h2>
+                <p class="Booleanos">El objeto Array de JavaScript es un objeto global que es usado en la construcción
+                    de
+                    arrays, que son objetos tipo lista de alto nivel.</p>
                 </br>
-                <div style="text-indent: 4%">
-                    <button onclick="funcionInt()">Demuestralo</button>
-                </div>
-                <p class="Boo" id="demostracionINT"></p>
-            </div>
-            </br>
-            <div class="flotantes">
-                <h2 class="Booleanos"> * Flotantes</h2>
-                <p class="Boo">La aritmética de los flotantes no es del 100% acertada</p>
-                </br>
-                <div style="text-indent: 4%">
-                    <button onclick="funcionFloat()">Enseñamelo</button>
-                </div>
-                <p class="Boo" id="demostracionFloat"></p>
-            </div>
-            </br>
-            <div class="cadenas-texto">
-                <h2 class="Booleanos"> * Cadenas de texto</h2>
-                <p class="Boo">Si juntamos un entero con una cadena de texto, el entero se vuelve una cadena de texto. Esto
-                depende de
-                la forma en como se escriba.</p>
-                </br>
-                <div style="text-indent: 4%">
-                    <button onclick="funcionString()">Compruebalo</button>
-                </div>
-                <p class="Boo" id="demostracionString"></p>
-            </div>
-        </div>
-        </br>
-        <div>
-            <h2 class="simples"> Tambien encontramos los Compuestos:</h2>
-        </div>
-        </br>
-        <div class="arrays">
-            <h2 class="Booleanos"> * Arrrays</h2>
-            <p class="Booleanos">El objeto Array de JavaScript es un objeto global que es usado en la construcción de
-                arrays, que son objetos tipo lista de alto nivel.</p>
-            </br>
-            <h2 class="Boo"> crear un array</h2>
-            <p class="Boo">let frutas = ["Manzana", "Banana"]</p>
-            <p class="Boo">si introducimos dos datos dentro de nuestro array y usamos el comando length
-            </p>
-            <p class="Boo">asi mostramos nuestro arrary: console.log(frutas.length)</p>
-            </br>
-            <div style="text-indent: 4%">
-                <button onclick="funcionA()"> Mostrar</button>
-            </div>
-            <p class="Boo" id="demostracionA"></p>
-        </div>
-        </br>
-        <div class="ar">
-            <h2 class="Boo">Acceder a un elemento de Array mediante su índice</h2>
-            <p class="Boo">para ello usaremos las siguientes instrucciones: </p>
-            <p class="le">let primero = frutas[0] </p>
-            </br>
-            <div style="text-indent: 4%">
-                <button onclick="funcionAr()"> Mostrar </button>
-            </div>
-            <p class="Boo" id="demostracionAr"></p>
-        </div>
-        </br>
-        <div class="arr">
-            <p class="le">let ultimo = frutas[frutas.length - 1]</p>
-            </br>
-            <div style="text-indent: 4%">
-                <button onclick="funcionArr()"> Mostrar </button>
-            </div>
-            <p class="Boo" id="demostracionArr"></p>
-        </div>
-        </br>
-        <div class="añ">
-            <h2 class="Boo">Añadir un elemento al final de un Array</h2>
-            <p class="Boo">let nuevaLongitud = frutas.push('Naranja')</p>
-            </br>
-            <div style="text-indent: 4%">
-                <button onclick="funcionAñ()"> Mostrar </button>
-            </div>
-            <p class="Boo" id="demostracionAñ"></p>
-        </div>
-        </br>
-        <div class="eli">
-            <h2 class="Boo">Eliminar el último elemento de un Array</h2>
-            <p class="Boo">let ultimo = frutas.pop()</p>
-            </br>
-            <div style="text-indent: 4%">
-                <button onclick="funcionEl()"> Mostrar </button>
-            </div>
-            <p class="Boo" id="demostracionEl"></p>
-        </div>
-        </br>
-
-        <div>
-            <h2 class="din">Dinamicas</h2>
-            <p>Dentro de esta estructura encontramos las lineales y las no lineales</p>
-            <h2 class="simples">Lineales </h2>
-        </br>
-            <h2 class="Booleanos"> * Pilas:</h2>
-            <div style="text-indent: 3%">
-                <img src="img/pila.png" class="im">
-            </div>
-        </br>
-            <h2 class="Booleanos"> Métodos de una pila</h2>
-            <p class="Booleanos">Tradicionalmente, una pila debe contar con métodos que permitan: agregar nuevos
-                elementos, sacarlos y revisarlos (uno
-                o más). Si bien al hacer una implementación propia, podemos llamar a estos métodos de cualquier forma,
-            </P>
-            <p class="Booleanos"> existe una
-                convención acordada de usar las siguientes </P>
-            <p class="Booleanos"> definiciones:</p>
-            </br>
-            <p class="Booleanos">push: Agrega un nuevo valor a la pila, ubicándolo al final de ésta.</p>
-            <p class="Booleanos">pop: Retorna el último valor ingresado a la pila, sacándolo de ésta.</p>
-            <p class="Booleanos">peek: Retorna el último valor ingresado a la pila, sin sacarlo de ésta</p>
-            <p class="Booleanos">size: Retorna el número de elementos que contiene la pila.</p>
-            <p class="Booleanos">print: Muestra el contenido de la pila.</p>
-        </br>
-            <h2 class="Booleanos">como crear una pila</h2>
-        </br>
-            <div style="text-indent: 3%">
-                <img src="img/pi.jpeg">
-            </div>
-        </br>
-            
-        </div>
-        </br>
-        <div class="listas">
-            <h2 class="Booleanos">* Listas</h2>
-            <p class="Booleanos">Para crear una lista vacía se puede hacer de las siguientes dos formas:</p>
-        </br>
-            <div style="text-indent: 3%">
-                <img src="img/listas2.JPG" class="lis">
-                <p class="Booleanos">Sea cual sea la forma que utilicen para crear una lista (arreglo) es irrelevante.
+                <h2 class="Boo"> crear un array</h2>
+                <p class="Boo">let frutas = ["Manzana", "Banana"]</p>
+                <p class="Boo">si introducimos dos datos dentro de nuestro array y usamos el comando length
                 </p>
+                <p class="Boo">asi mostramos nuestro arrary: console.log(frutas.length)</p>
+                </br>
+                <div style="text-indent: 4%">
+                    <button onclick="funcionA()"> Mostrar</button>
+                </div>
+                <p class="Boo" id="demostracionA"></p>
             </div>
             </br>
-            <p class="Booleanos">Para agregar un elemento al final del arreglo se utiliza el método push(), y para
-                agregar un elemento al inicio del
-                arreglo se utiliza el método unshift(). En el siguiente ejemplo muestro como se utilizan:</p>
-            </br>
-            <div style="text-indent: 3%">
-                <img src="img/lista3.png" alt="">
-            </div>
-        </br>
-            <p class="Booleanos">Y por último los métodos sort() y reverse() nos sirven para ordenar nuestra lista ya
-                sea ascendente o descendentemente:</p>
-            </br>
-            <div style="text-indent: 3%">
-                <img src="img/lista4.png" alt="">
-            </div>
-        </div>
-        </br>
-        <div class="arbol">
-            <h2 class="simples">No lineales</h2>
-            <h2 class="Booleanos"> * Arboles</h2>
-            <p class="Booleanos">Los árboles son estructuras de datos en los que los nodos tienen jerarquía. Cada nodo
-                puede tener uno o
-                más
-                árboles
-                hijos y así recursivamente hasta llegar a los nodos hojas, que no tienen hijos.</p>
-            <P class="Booleanos">este es un jemplo basico de como insertar datos a un nodo </P>
-            </br>
-            <div style="text-indent: 3%">
-                <img src="img/arbol.jpeg">
+            <div class="ar">
+                <h2 class="Boo">Acceder a un elemento de Array mediante su índice</h2>
+                <p class="Boo">para ello usaremos las siguientes instrucciones: </p>
+                <p class="le">let primero = frutas[0] </p>
+                </br>
+                <div style="text-indent: 4%">
+                    <button onclick="funcionAr()"> Mostrar </button>
+                </div>
+                <p class="Boo" id="demostracionAr"></p>
             </div>
             </br>
-            <div style="text-indent: 4%">
-                <button onclick="funcionAb()"> Mostrar Arbol</button>
+            <div class="arr">
+                <p class="le">let ultimo = frutas[frutas.length - 1]</p>
+                </br>
+                <div style="text-indent: 4%">
+                    <button onclick="funcionArr()"> Mostrar </button>
+                </div>
+                <p class="Boo" id="demostracionArr"></p>
             </div>
-            <P class="Boo" id="demostracionAb"></P>
-        </div>
-        </br>
+            </br>
+            <div class="añ">
+                <h2 class="Boo">Añadir un elemento al final de un Array</h2>
+                <p class="Boo">let nuevaLongitud = frutas.push('Naranja')</p>
+                </br>
+                <div style="text-indent: 4%">
+                    <button onclick="funcionAñ()"> Mostrar </button>
+                </div>
+                <p class="Boo" id="demostracionAñ"></p>
+            </div>
+            </br>
+            <div class="eli">
+                <h2 class="Boo">Eliminar el último elemento de un Array</h2>
+                <p class="Boo">let ultimo = frutas.pop()</p>
+                </br>
+                <div style="text-indent: 4%">
+                    <button onclick="funcionEl()"> Mostrar </button>
+                </div>
+                <p class="Boo" id="demostracionEl"></p>
+            </div>
+            </br>
 
+            <div>
+                <h2 class="din">Dinamicas</h2>
+                <p>Dentro de esta estructura encontramos las lineales y las no lineales</p>
+                <h2 class="simples">Lineales </h2>
+                </br>
+                <h2 class="Booleanos"> * Pilas:</h2>
+                <div style="text-indent: 3%">
+                    <img src="img/pila.png" class="im">
+                </div>
+                </br>
+                <h2 class="Booleanos"> Métodos de una pila</h2>
+                <p class="Booleanos">Tradicionalmente, una pila debe contar con métodos que permitan: agregar nuevos
+                    elementos, sacarlos y revisarlos (uno
+                    o más). Si bien al hacer una implementación</p>
+                <p class="Booleanos">propia, podemos llamar a estos métodos de cualquier
+                    forma,
+                </P>
+                <p class="Booleanos"> existe una
+                    convención acordada de usar las siguientes </P>
+                <p class="Booleanos"> definiciones:</p>
+                </br>
+                <h2 class="Booleanos">push: </h2>
+                <p class="Booleanos"> Agrega un nuevo valor a la pila, ubicándolo al final de ésta.</p>
+                <h2 class="Booleanos">pop: </h2>
+                <p class="Booleanos"> Retorna el último valor ingresado a la pila, sacándolo de ésta.</p>
+                <h2 class="Booleanos">peek: </h2>
+                <p class="Booleanos"> Retorna el último valor ingresado a la pila, sin sacarlo de ésta</p>
+                <h2 class="Booleanos">size: </h2>
+                <p class="Booleanos"> Retorna el número de elementos que contiene la pila.</p>
+                <h2 class="Booleanos">print:</h2>
+                <p class="Booleanos"> Muestra el contenido de la pila.</p>
+                </br>
+                <h2 class="Booleanos">como crear una pila</h2>
+                </br>
+                <div style="text-indent: 3%">
+                    <img src="img/pi.jpeg">
+                </div>
+                </br>
 
-        <script>
-            function funcionB() {
-                document.getElementById("demonstracion").innerHTML = Boolean(10 > 9);
-            }
-            function funcionInt() {
-                var x = 999999999999999;
-                var y = 9999999999999999;
-                document.getElementById("demostracionINT").innerHTML = x + "<br>" + y;
-            }
-            function funcionFloat() {
-                var x = 0.2 + 0.1;
-                document.getElementById("demostracionFloat").innerHTML = "0.2 + 0.1 = " + x;
-            }
-            function funcionString() {
-                var x = "Volvo" + 16 + 4;
-                document.getElementById("demostracionString").innerHTML = x;
-            }
+            </div>
+            </br>
+            <div class="listas">
+                <h2 class="Booleanos">* Listas</h2>
+                <p class="Booleanos">Para crear una lista vacía se puede hacer de las siguientes dos formas:</p>
+                </br>
+                <div style="text-indent: 3%">
+                    <img src="img/listas2.JPG" class="lis">
+                    <p class="Booleanos">Sea cual sea la forma que utilicen para crear una lista (arreglo) es
+                        irrelevante.
+                    </p>
+                </div>
+                </br>
+                <p class="Booleanos">Para agregar un elemento al final del arreglo se utiliza el método push(), y para
+                    agregar un elemento al inicio del
+                    arreglo se utiliza el método unshift(). En el siguiente </p>
+                <p class="Booleanos"> ejemplo muestro como se utilizan:</p>
+                </br>
+                <div style="text-indent: 3%">
+                    <img src="img/lista3.png" alt="">
+                </div>
+                </br>
+                <p class="Booleanos">Y por último los métodos sort() y reverse() nos sirven para ordenar nuestra lista
+                    ya
+                    sea ascendente o descendentemente:</p>
+                </br>
+                <div style="text-indent: 3%">
+                    <img src="img/lista4.png" alt="">
+                </div>
+            </div>
+            </br>
+            <div class="arbol">
+                <h2 class="simples"> No lineales</h2>
+                </br>
+                <h2 class="Booleanos"> * Arboles</h2>
+                </br>
+                <h2 class="Booleanos">Terminologia</h2>
+                <div class="Booleanos">
+                    <img src="img/ar.png" alt="">
+                </div>
+                <p class="Booleanos">Los árboles son estructuras de datos en los que los nodos tienen jerarquía. Cada
+                    nodo
+                    puede tener uno o
+                    más
+                    árboles
+                    hijos y así recursivamente hasta llegar a los nodos </p>
+                <p class="Booleanos">hojas, que no tienen hijos.</p>
+                </br>
+                <h2 class="Booleanos">Nodo</h2>
+                <p class="Booleanos">El “nodo” es la estructura básica que usamos para construir un “árbol”. Todos los
+                    elementos de un árbol
+                    son nodos. A su vez, cada nodo es un sub-árbol. Los nodos se </p>
+                <p class="Booleanos"> caracterizan por tener un valor, y
+                    referencias a otros nodos.</p>
+                </br>
+                <h2 class="Booleanos">Padres / Hijos</h2>
+                <p class="Booleanos">Los “hijos” de un nodo son los nodos a los cuáles éste hace referencia. Por
+                    ejemplo, en
+                    un documento HTML </p>
+                <p class="Booleanos">
+                    las etiquetas (nodos) "head" y "body" son hijos de el nodo "html". Al mismo tiempo, diríamos que
+                    "html"
+                    es el nodo. </p>
+                <p class="Booleanos"> “padre” de tanto
+                    "head" como "body". </p>
+                </br>
+                <h2 class="Booleanos"> Nodo Raiz </h2>
+                <p class="Booleanos">Todo árbol tiene un nodo inicial o nodo raíz, el cual va a ser el único nodo que no
+                    tenga un “padre”.</p>
+                </br>
+                <h2 class="Booleanos"> Nodo Hoja</h2>
+                <p class="Booleanos">Los nodos hoja son aquellos que no tienen hijos (las hojas del árbol).</p>
+                </br>
+                <h2 class="Booleanos"> Nivel</h2>
+                <p class="Booleanos">En un árbol, cuando hablamos de “nivel” nos referimos a la distancia, o el número
+                    de
+                    saltos que debemos
+                    dar hasta llegar al nodo raíz. Podemos verlo también como el </p>
+                <p class="Booleanos"> “nivel de anidación”.</p>
+                </br>
+                <h2 class="Booleanos"> Altura o Profundidad</h2>
+                <p class="Booleanos">La altura o profundidad de un árbol hace referencia al nivel máximo que vamos a
+                    encontrar.</p>
 
-            function funcionA() {
-                let frutas = ["Manzana", "Banana"];
-                document.getElementById("demostracionA").innerHTML = frutas.length;
-            }
+                <P class="Booleanos">este es un jemplo basico de como insertar datos a un nodo </P>
+                </br>
+                <div style="text-indent: 3%">
+                    <img src="img/arbol.jpeg">
+                </div>
+                </br>
+                <!--<div style="text-indent: 4%"> 
+                    <button onclick="funcionAb()"> Mostrar Arbol</button>
+                </div> -->
+                <P class="Boo" id="demostracionAb"></P>
+                </br>
+                <h2 class="Booleanos"> Inserción </h2>
+                <p class="Booleanos"> Para poder insertar un nuevo valor, vamos a necesitar dos cosas: el valor en sí, y
+                    el
+                    lugar
+                    donde queremos que aparezca en la jerarquía, para lo cual vamos a recibir el </p>
+                <p class="Booleanos"> del nodo padre al
+                    que
+                    le queremos añadir un hijo.</p>
+                </br>
+                <div class="Booleanos">
+                    <img src="img/in.png" alt="">
+                </div>
+                </br>
+                <h2 class="Booleanos">Recorrido</h2>
+                <p class="Booleanos">Al hacer un recorrido, podemos invocar el callback (y así considerar el nodo como
+                    visitado) antes o después de recorrer los hijos. Ambas versiones son útiles, así que </p>
+                <p class="Booleanos"> vamos a
+                    implementar
+                    las dos. Para ello vamos a declarar un </p>
+                <p class="Booleanos">método traverseDFS() que reciba dos argumentos: el callback a
+                    invocar para cada elemento, y el tipo de recorrido (preOrder o postOrder).</p>
+                </br>
+                <div class="Booleanos">
+                    <img src="img/call.png" alt="">
+                </div>
+                </br>
+                <h2 class="Booleanos"> Pre-order: </h2>
+                <div class="Booleanos">
+                    <img src="img/pre.png" alt="">
+                </div>
+                </br>
+                <h2 class="Booleanos"> Post-order: </h2>
+                <div class="Booleanos">
+                    <img src="img/post.png" alt="">
+                </div>
 
-            function funcionAr() {
-                let frutas = ["Manzana", "Banana"];
-                document.getElementById("demostracionAr").innerHTML = frutas[0];
-            }
+            </div>
 
-            function funcionArr() {
-                let frutas = ["Manzana", "Banana"];
-                document.getElementById("demostracionArr").innerHTML = frutas[frutas.length - 1];
-            }
+            </br>
 
-            function funcionAñ() {
-                let frutas = ["Manzana", "Banana"];
-                let nuevaLongitud = frutas.push('Naranja');
-                document.getElementById("demostracionAñ").innerHTML = frutas;
-            }
+            <div class="grafos">
+                <h2 class="Booleanos"> * Grafos</h2>
+                <p class="Booleanos">Es un conjunto de vértices y un conjunto de aristas. Si lo vemos gráficamente
+                    tendremos:</p>
+                </br>
+                <div class="Booleanos">
+                    <img src="img/gra.png" alt="">
+                </div>
+                <p class="Booleanos">Notarás que cada vértice esta nombrado en este caso. Para nuestro ejemplo los vértices son A, B, C y
+                    D. Cuando queremos definir una arista la podemos determinar como (Vértice, Vértice), que representa
+                    los vértices que conecta dicha arista. Entonces las aristas del grafo anterior estarán representadas
+                    cómo:</p>
+                    
+            </div>
+        </section>
+    </div>
 
-            function funcionEl() {
-                let frutas = ["Manzana", "Banana"];
-                let nuevaLongitud = frutas.push('Naranja');
-                let ultimo = frutas.pop();
-                document.getElementById("demostracionEl").innerHTML = frutas;
-            }
+    <script>
+        function funcionB() {
+            document.getElementById("demonstracion").innerHTML = Boolean(10 > 9);
+        }
+        function funcionInt() {
+            var x = 999999999999999;
+            var y = 9999999999999999;
+            document.getElementById("demostracionINT").innerHTML = x + "<br>" + y;
+        }
+        function funcionFloat() {
+            var x = 0.2 + 0.1;
+            document.getElementById("demostracionFloat").innerHTML = "0.2 + 0.1 = " + x;
+        }
+        function funcionString() {
+            var x = "Volvo" + 16 + 4;
+            document.getElementById("demostracionString").innerHTML = x;
+        }
 
-            function funcionAb() {
-                
-                document.getElementById("demostracionAb").innerHTML = head;
+        function funcionA() {
+            let frutas = ["Manzana", "Banana"];
+            document.getElementById("demostracionA").innerHTML = frutas.length;
+        }
 
-            }
+        function funcionAr() {
+            let frutas = ["Manzana", "Banana"];
+            document.getElementById("demostracionAr").innerHTML = frutas[0];
+        }
 
-        </script>
+        function funcionArr() {
+            let frutas = ["Manzana", "Banana"];
+            document.getElementById("demostracionArr").innerHTML = frutas[frutas.length - 1];
+        }
+
+        function funcionAñ() {
+            let frutas = ["Manzana", "Banana"];
+            let nuevaLongitud = frutas.push('Naranja');
+            document.getElementById("demostracionAñ").innerHTML = frutas;
+        }
+
+        function funcionEl() {
+            let frutas = ["Manzana", "Banana"];
+            let nuevaLongitud = frutas.push('Naranja');
+            let ultimo = frutas.pop();
+            document.getElementById("demostracionEl").innerHTML = frutas;
+        }
+
+        function funcionAb() {
+
+            document.getElementById("demostracionAb").innerHTML = head;
+
+        }
+
+    </script>
     </section>
 </body>
 
